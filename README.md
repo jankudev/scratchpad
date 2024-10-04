@@ -1,4 +1,3 @@
-# My Coding Scratchpad
+# LeetCode - Kotlin
 
-Scratchpad for gists, snippets, sharing code, small projects, etc. (see branches).
-Using the [unlisted repositories trick](https://dev.to/agentender/unlisted-github-repositories-4jin).
+Coding exercises from LeetCode in Kotlin.
