@@ -3,7 +3,7 @@
 Unix / Linux commands practice wargame.
 
 - [Bandit Wargame](https://overthewire.org/wargames/bandit)
-- [Found blog - solutions](https://mayadevbe.me/tags/bandit/)
+- [MayADevBe Blog - solutions](https://mayadevbe.me/tags/bandit/)
 
 ## Levels
 
