@@ -1,9 +1,13 @@
 # Bandit
 
-[Bandit Wargame](https://overthewire.org/wargames/bandit)
-[Found blog - solutions](https://mayadevbe.me/tags/bandit/)
+Unix / Linux commands practice wargame.
+
+- [Bandit Wargame](https://overthewire.org/wargames/bandit)
+- [Found blog - solutions](https://mayadevbe.me/tags/bandit/)
 
 ## Levels
+
+
 
 ### Level 0
 ```bash
