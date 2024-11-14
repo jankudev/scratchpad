@@ -230,4 +230,74 @@ gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
 # Level 24
 Bruto-force attack (submitting to HTTP)
 ```bash
+for i in $(seq -w 0 9999); do
+  echo "gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8 ${i}" >> generated.txt;
+done
+
+cat generated.txt | nc localhost 30002
 ```
+iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
+
+# Level 25
+Exploiting the fact that 'more' when output does not fit terminal switches to
+interactive mode where when pressing 'v' enters vim. In it with ':e
+/etc/bandit\_pass/bandit26' we can see the password.
+```bash
+cat /etc/passwd       #bandit26 has /usr/bin/showtext as shell
+cat /usr/bin/showtext #show content of file text.txt with 'more'
+
+scp -P 2220 bandit25@bandit.labs.overthewire.org:/home/bandit25/bandit26.sshkey .
+chmod 0700 bandit26.ssh
+
+ssh -i bandit26.sshkey bandit26@bandit.labs.overthewire.org -p 2220
+```
+s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
+
+# Level 26
+Same exploit, leveraging the 'set shell=/bin/bash' and ':shell'. With access to
+shell run:
+```bash
+./bandit27-do cat /etc/bandit\_pass/bandit27
+```
+upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
+
+# Level 27
+Cloning a git repo
+```bash
+tmp=$(mktemp -d) && pushd ${tmp}
+git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo
+```
+Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
+
+# Level 28
+Cloning a git repo, checking out previous commit where passwords leaked
+```bash
+tmp=$(mktemp -d) && pushd ${tmp}
+git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo
+git checkout 3621de89d8eac9d3b64302bfb2dc67e9a566decd
+```
+4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
+
+# Level 29
+Git clone and switch branch as master is 'prod' without passwords, but 'dev'
+contains unofuscated commited passwords.
+
+qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
+
+# Level 30
+Git clone, show tag
+```bash
+git tag
+git show secret
+```
+fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
+
+# Level 31
+Commit and push a file. Push fails revealing the password in error message.
+
+3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
+
+# Level 32
+Escape shell using $0 as a command
+
+tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
