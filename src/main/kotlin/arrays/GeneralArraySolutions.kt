@@ -63,5 +63,12 @@ class GeneralArraySolutions {
             }
             return j
         }
+
+        /**
+         * Find the element that appears at least n/2 times in the array of length n
+         */
+        fun majorityElement(nums: IntArray): Int {
+            return nums.groupBy { it }.maxBy { it.value.size }.key
+        }
     }
 }

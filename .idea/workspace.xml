@@ -7,7 +7,6 @@
     <list default="true" id="1b5da2a8-f5c8-4f69-b71c-25d8ed9165b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays/GeneralArraySolutions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrays/GeneralArraySolutions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/arrays/GeneralArraySolutionsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/arrays/GeneralArraySolutionsTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +242,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735759367181</updated>
-      <workItem from="1735759368145" duration="9419000" />
+      <workItem from="1735759368145" duration="9930000" />
     </task>
     <servers />
   </component>
