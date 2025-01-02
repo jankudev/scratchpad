@@ -23,5 +23,25 @@ class GeneralArraySolutions {
             }
             return j
         }
+
+        /**
+         * In-place removal of duplicates in array
+         * @param nums array of integers, sorted in ascending order
+         * @return number of unique elements
+         */
+        fun removeDuplicatesSortedArray(nums: IntArray): Int {
+            if (nums.isEmpty()) {
+                return 0
+            }
+
+            var j = 1
+
+            for (i in 1 until nums.size) {
+                if (nums[i] != nums[i - 1]) {
+                    nums[j++] = nums[i]
+                }
+            }
+            return j
+        }
     }
 }
