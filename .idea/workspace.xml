@@ -7,6 +7,7 @@
     <list default="true" id="1b5da2a8-f5c8-4f69-b71c-25d8ed9165b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays/GeneralArraySolutions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrays/GeneralArraySolutions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/arrays/GeneralArraySolutionsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/arrays/GeneralArraySolutionsTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +71,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build leetcode-kotlin.executor": "Run",
+    "Gradle.GeneralArraySolutionsTest.arrayRemoveElementII_failedTest1.executor": "Run",
+    "Gradle.GeneralArraySolutionsTest.arrayRemoveElementII_failedTest2.executor": "Run",
     "Gradle.GeneralArraySolutionsTest.arrayRemoveElement_failedTest1.executor": "Run",
     "Gradle.GeneralArraySolutionsTest.executor": "Run",
     "Gradle.MergeSortedArrayTest.executor": "Run",
@@ -93,7 +96,7 @@
       <recent name="arrays.MergeSortedArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GeneralArraySolutionsTest">
+  <component name="RunManager" selected="Gradle.GeneralArraySolutionsTest.arrayRemoveElementII_failedTest2">
     <configuration name="GeneralArraySolutionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -108,6 +111,54 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;arrays.GeneralArraySolutionsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="GeneralArraySolutionsTest.arrayRemoveElementII_failedTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;arrays.GeneralArraySolutionsTest.arrayRemoveElementII_failedTest1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="GeneralArraySolutionsTest.arrayRemoveElementII_failedTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;arrays.GeneralArraySolutionsTest.arrayRemoveElementII_failedTest2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -166,42 +217,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="leetcode-kotlin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.janku.learning.MainKt" />
-      <module name="leetcode-kotlin.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GeneralArraySolutionsTest.arrayRemoveElementII_failedTest2" />
+        <item itemvalue="Gradle.GeneralArraySolutionsTest.arrayRemoveElementII_failedTest1" />
         <item itemvalue="Gradle.GeneralArraySolutionsTest" />
         <item itemvalue="Gradle.GeneralArraySolutionsTest.arrayRemoveElement_failedTest1" />
         <item itemvalue="Gradle.MergeSortedArrayTest" />
-        <item itemvalue="Gradle.leetcode-kotlin [build]" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -221,11 +243,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735759367181</updated>
-      <workItem from="1735759368145" duration="7233000" />
+      <workItem from="1735759368145" duration="9419000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/GeneralArraySolutions.kt</url>
+          <line>52</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/arrays/GeneralArraySolutions.kt</url>
+          <line>60</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

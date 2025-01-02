@@ -43,5 +43,25 @@ class GeneralArraySolutions {
             }
             return j
         }
+
+        /**
+         * In-place removal of elements appearing more than twice in array
+         * @param nums array of integers, sorted in ascending order
+         * @return number of unique elements
+         */
+        fun removeDuplicatesSortedArrayII(nums: IntArray): Int {
+            if (nums.size <= 2) {
+                return nums.size
+            }
+
+            var j = 2
+
+            for (i in 2 until nums.size) {
+                if (nums[i] != nums[j - 1] || nums[i] != nums[j - 2]) {
+                    nums[j++] = nums[i]
+                }
+            }
+            return j
+        }
     }
 }
