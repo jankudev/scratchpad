@@ -66,9 +66,33 @@ class GeneralArraySolutions {
 
         /**
          * Find the element that appears at least n/2 times in the array of length n
+         *
+         * Constraints/rules/hints
+         * - there is always such element present
          */
         fun majorityElement(nums: IntArray): Int {
-            return nums.groupBy { it }.maxBy { it.value.size }.key
+            var possibleMajorityNum = nums[0]
+            var count = 0
+
+            for (num in nums) {
+                if (count == 0) {
+                    possibleMajorityNum = num
+                }
+                count += if (num == possibleMajorityNum) 1 else -1
+            }
+
+            return possibleMajorityNum
+        }
+
+        /**
+         * Rotate array to the right by k-places in-place
+         */
+        fun rotate(nums: IntArray, k: Int): Unit {
+            val moveRightBy = k % nums.size
+            val newArray = nums.takeLast(moveRightBy).plus(nums.take(nums.size - moveRightBy))
+            for (i in nums.indices) {
+                nums[i] = newArray[i]
+            }
         }
     }
 }
