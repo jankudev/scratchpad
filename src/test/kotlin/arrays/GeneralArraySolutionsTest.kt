@@ -47,4 +47,17 @@ class GeneralArraySolutionsTest {
         )
     }
 
+    /* Maximum price in time series of stock prices*/
+    @Test
+    fun maxPrice_example1() {
+        val prices = intArrayOf(7,1,5,3,6,4)
+        assertEquals(5, GeneralArraySolutions.maxProfit(prices))
+    }
+
+    @Test
+    fun maxPrice_example2() {
+        val prices = intArrayOf(7,6,4,3,1)
+        assertEquals(0, GeneralArraySolutions.maxProfit(prices))
+    }
+
 }

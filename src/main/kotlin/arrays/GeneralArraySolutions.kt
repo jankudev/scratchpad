@@ -94,5 +94,26 @@ class GeneralArraySolutions {
                 nums[i] = newArray[i]
             }
         }
+
+        /**
+         * Choose the maximum possible profit as a difference between 2 prices in order (1st buy, 2nd sell)
+         * @param prices list of prices
+         * @return the maximum possible difference or 0 if no profit can be made
+         */
+        fun maxProfit(prices: IntArray): Int {
+            var bestBuyPrice = Int.MAX_VALUE
+            var maxProfit = 0
+
+            for (price in prices) {
+                if (price < bestBuyPrice) {
+                    bestBuyPrice = price
+                }
+                val profit = price - bestBuyPrice
+                if (profit > maxProfit) {
+                    maxProfit = profit
+                }
+            }
+            return maxProfit
+        }
     }
 }
