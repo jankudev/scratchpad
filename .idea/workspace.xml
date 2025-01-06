@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b5da2a8-f5c8-4f69-b71c-25d8ed9165b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays/GeneralArraySolutions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrays/GeneralArraySolutions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/arrays/GeneralArraySolutionsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/arrays/GeneralArraySolutionsTest.kt" afterDir="false" />
@@ -76,6 +75,7 @@
     "Gradle.GeneralArraySolutionsTest.arrayRemoveElementII_failedTest2.executor": "Run",
     "Gradle.GeneralArraySolutionsTest.arrayRemoveElement_failedTest1.executor": "Run",
     "Gradle.GeneralArraySolutionsTest.executor": "Run",
+    "Gradle.GeneralArraySolutionsTest.maxPrice2_example1.executor": "Run",
     "Gradle.GeneralArraySolutionsTest.maxPrice_example1.executor": "Run",
     "Gradle.GeneralArraySolutionsTest.maxPrice_example2.executor": "Run",
     "Gradle.GeneralArraySolutionsTest.maxPrice_timeoutFailingExample.executor": "Run",
@@ -100,8 +100,8 @@
       <recent name="arrays.MergeSortedArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GeneralArraySolutionsTest.maxPrice_example2">
-    <configuration name="GeneralArraySolutionsTest.arrayRemoveElementII_failedTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.GeneralArraySolutionsTest.maxPrice2_example1">
+    <configuration name="GeneralArraySolutionsTest.maxPrice2_example1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -114,7 +114,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;arrays.GeneralArraySolutionsTest.arrayRemoveElementII_failedTest1&quot;" />
+            <option value="&quot;arrays.GeneralArraySolutionsTest.maxPrice2_example1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -125,7 +125,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="GeneralArraySolutionsTest.arrayRemoveElementII_failedTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GeneralArraySolutionsTest.maxPrice2_example2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -138,7 +138,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;arrays.GeneralArraySolutionsTest.arrayRemoveElementII_failedTest2&quot;" />
+            <option value="&quot;arrays.GeneralArraySolutionsTest.maxPrice2_example2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="GeneralArraySolutionsTest.maxPrice2_example3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;arrays.GeneralArraySolutionsTest.maxPrice2_example3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,37 +221,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="GeneralArraySolutionsTest.maxPrice_timeoutFailingExample" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;arrays.GeneralArraySolutionsTest.maxPrice_timeoutFailingExample&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GeneralArraySolutionsTest.maxPrice2_example1" />
+        <item itemvalue="Gradle.GeneralArraySolutionsTest.maxPrice2_example3" />
+        <item itemvalue="Gradle.GeneralArraySolutionsTest.maxPrice2_example2" />
         <item itemvalue="Gradle.GeneralArraySolutionsTest.maxPrice_example2" />
         <item itemvalue="Gradle.GeneralArraySolutionsTest.maxPrice_example1" />
-        <item itemvalue="Gradle.GeneralArraySolutionsTest.maxPrice_timeoutFailingExample" />
-        <item itemvalue="Gradle.GeneralArraySolutionsTest.arrayRemoveElementII_failedTest2" />
-        <item itemvalue="Gradle.GeneralArraySolutionsTest.arrayRemoveElementII_failedTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +250,7 @@
       <workItem from="1735759368145" duration="13510000" />
       <workItem from="1735938386511" duration="6000" />
       <workItem from="1735938655838" duration="2042000" />
-      <workItem from="1735976617978" duration="4245000" />
+      <workItem from="1735976617978" duration="5747000" />
     </task>
     <servers />
   </component>

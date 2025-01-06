@@ -115,5 +115,30 @@ class GeneralArraySolutions {
             }
             return maxProfit
         }
+
+        /**
+         * Given a sequence of prices of a single stock with the limitation of holding max 1 stock at a time,
+         * count the maximum potential profit.
+         * hint: we can sum all the positive differences between the consecutive prices (longer sequence is accumulation)
+         * @param sequence of prices of stock
+         * @return the maximum potential profit
+         */
+        fun maxProfit2(prices: IntArray): Int {
+            var totalProfit = 0
+            for (i in 0 until prices.size - 1) {
+                if (prices[i] < prices[i + 1]) {
+                    totalProfit += prices[i + 1] - prices[i]
+                }
+            }
+            return totalProfit
+        }
+
+        fun maxProfit2_functional(prices: IntArray): Int {
+            return prices.dropLast(1)
+                .mapIndexed { index, price -> price to prices[index+1] }
+                .filter { (price, nextPrice) -> price < nextPrice }
+                .sumBy { (price, nextPrice) -> nextPrice - price }
+        }
+
     }
 }

@@ -60,4 +60,34 @@ class GeneralArraySolutionsTest {
         assertEquals(0, GeneralArraySolutions.maxProfit(prices))
     }
 
+    /* Max profit II */
+    @Test
+    fun maxPrice2_emptyExample() {
+        val prices = intArrayOf()
+        assertEquals(0, GeneralArraySolutions.maxProfit(prices))
+    }
+
+    @Test
+    fun maxPrice2_singlePriceExample() {
+        val prices = intArrayOf(1)
+        assertEquals(0, GeneralArraySolutions.maxProfit(prices))
+    }
+
+    @Test
+    fun maxPrice2_example1() {
+        val prices = intArrayOf(7,1,5,3,6,4)
+        assertEquals(5, GeneralArraySolutions.maxProfit(prices))
+    }
+
+    @Test
+    fun maxPrice2_example2() {
+        val prices = intArrayOf(1,2,3,4,5)
+        assertEquals(4, GeneralArraySolutions.maxProfit(prices))
+    }
+
+    @Test
+    fun maxPrice2_example3() {
+        val prices = intArrayOf(7,6,4,3,1)
+        assertEquals(0, GeneralArraySolutions.maxProfit(prices))
+    }
 }
