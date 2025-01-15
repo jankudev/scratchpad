@@ -109,7 +109,9 @@ class LearningArrays {
   }
 
 
-  /* --------- *//* Fibonacci *//* --------- */
+  /* --------- */
+  /* Fibonacci */
+  /* --------- */
   fun genArrayFibonacciUsingSequence(size: Int): IntArray {
     if (size <= 0) {
       return intArrayOf()
