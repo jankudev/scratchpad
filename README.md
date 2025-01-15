@@ -6,7 +6,8 @@ from a managerial role to software engineering to regain hands-on team delivery 
 excellence and delivery coaching based on [LeSS](https://less.works/) and DX/SDLC based
 on [DORA research](https://dora.dev/)).
 
-I'm publishing this repository as it might serve someone else in a similar situation or someone who wants to learn Kotlin.
+I'm publishing this repository as it might serve someone else in a similar situation or someone who wants to learn
+Kotlin.
 
 ## Resources
 
