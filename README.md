@@ -40,7 +40,7 @@ The list of themes I'm learning in Kotlin are:
 
 - [x] [Arrays](src/main/kotlin/basics/LearningArrays.kt) and [Lists](src/main/kotlin/basics/LearningLists.kt)
 - [x] [Hashmaps and Sets](src/main/kotlin/basics/LearningHashtables.kt)
-- [ ] representing Trees and Graphs
+- [x] representing [Trees](src/main/kotlin/basics/LearningTrees.kt) and Graphs
 - [x] representing [Stacks and Queues](src/main/kotlin/basics/LearningStackQueues.kt)
 - [ ] representing Heaps
 
