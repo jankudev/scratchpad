@@ -3,6 +3,7 @@ package dev.janku.learning.basics
 /**
  * Learning about arrays in Kotlin.
  * - default structure is List (not fixed size), but Array is fixed size
+ * - arrays default mutable, lists default immutable
  */
 class LearningArrays {
 
