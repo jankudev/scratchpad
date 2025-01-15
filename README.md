@@ -39,6 +39,46 @@ The list of themes I'm learning in Kotlin are:
 ### The basic data structures
 
 - [x] [Arrays](src/main/kotlin/basics/LearningArrays.kt) and [Lists](src/main/kotlin/basics/LearningLists.kt)
-- [ ] Hashmaps and Sets
+- [x] [Hashmaps and Sets](src/main/kotlin/basics/LearningHashtables.kt)
 - [ ] representing Trees and Graphs
-- [ ] representing Stacks and Queues
+- [x] representing [Stacks and Queues](src/main/kotlin/basics/LearningStackQueues.kt)
+- [ ] representing Heaps
+
+### Algorithmic patterns and techniques
+
+- [ ] Sliding Window
+- [ ] Two Pointers
+- [ ] Fast and Slow pointers
+- [ ] Merge Intervals
+- [ ] Cyclic Sort
+- [ ] In-place Reversal of Linked List
+- [ ] Tree Breadth First Search
+- [ ] Tree Depth First Search
+- [ ] Subsets
+- [ ] Modified Binary Search
+- [ ] Bitwise XOR
+- [ ] Top 'K' Elements
+- [ ] K-way merge
+- [ ] 0/1 Knapsack
+- [ ] Topological Sort
+- [ ] Two Heaps
+- [ ] Graph Traversal and Shortest Path
+- [ ] Matrix Island
+- [ ] Greedy Algorithms
+- [ ] Dynamic Programming
+- [ ] Recursion and Backtracking
+
+### Design patterns
+
+- [ ] Singleton
+- [ ] Factory
+- [ ] Builder
+
+### Sorting algorithms
+
+- [ ] Bubble Sort
+- [ ] Merge Sort
+- [ ] Quick Sort
+
+### Concurrency and Thread-safety
+TBD
