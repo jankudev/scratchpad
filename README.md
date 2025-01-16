@@ -40,12 +40,13 @@ The list of themes I'm learning in Kotlin are:
 
 - [x] [Arrays](src/main/kotlin/basics/LearningArrays.kt) and [Lists](src/main/kotlin/basics/LearningLists.kt)
 - [x] [Hashmaps and Sets](src/main/kotlin/basics/LearningHashtables.kt)
-- [x] representing [Trees](src/main/kotlin/basics/LearningTrees.kt) and Graphs
+- [x] representing [Trees](src/main/kotlin/basics/LearningTrees.kt) and [Graphs](src/main/kotlin/basics/LearningGraphs.kt)
 - [x] representing [Stacks and Queues](src/main/kotlin/basics/LearningStackQueues.kt)
 - [ ] representing Heaps
 
 ### Algorithmic patterns and techniques
 
+- [x] [Binary Search](src/main/kotlin/algorithms/BinarySearch.kt)
 - [ ] Sliding Window
 - [ ] Two Pointers
 - [ ] Fast and Slow pointers
@@ -55,7 +56,7 @@ The list of themes I'm learning in Kotlin are:
 - [ ] Tree Breadth First Search
 - [ ] Tree Depth First Search
 - [ ] Subsets
-- [ ] Modified Binary Search
+- [x] [Modified Binary Search](src/main/kotlin/problems/binarysearch)
 - [ ] Bitwise XOR
 - [ ] Top 'K' Elements
 - [ ] K-way merge

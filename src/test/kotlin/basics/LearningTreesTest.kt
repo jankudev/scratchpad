@@ -5,6 +5,10 @@ import dev.janku.learning.basics.TreeNode
 import org.junit.jupiter.api.Test
 import kotlin.test.assertContentEquals
 
+/**
+ * Testing the representation of a "Tree" structure
+ * - assertion checking by post-order BFS traversal
+ */
 class LearningTreesTest {
 
   @Test
