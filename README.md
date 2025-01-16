@@ -48,7 +48,7 @@ The list of themes I'm learning in Kotlin are:
 
 - [x] [Binary Search](src/main/kotlin/algorithms/BinarySearch.kt)
 - [ ] Sliding Window
-- [ ] Two Pointers
+- [x] Two Pointers (f.e. with Binary Search, Bubble Sort, ...)
 - [ ] Fast and Slow pointers
 - [ ] Merge Intervals
 - [ ] Cyclic Sort
@@ -78,7 +78,7 @@ The list of themes I'm learning in Kotlin are:
 ### Sorting algorithms
 
 - [ ] Bubble Sort
-- [ ] Merge Sort
+- [x] [Merge Sort](src/main/kotlin/algorithms/SortingAlgorithms.kt) - basic and in-place implementations
 - [ ] Quick Sort
 
 ### Concurrency and Thread-safety
