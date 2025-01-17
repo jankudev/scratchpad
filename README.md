@@ -53,8 +53,8 @@ The list of themes I'm learning in Kotlin are:
 - [ ] Merge Intervals
 - [ ] Cyclic Sort
 - [ ] In-place Reversal of Linked List
-- [ ] Tree Breadth First Search
-- [ ] Tree Depth First Search
+- [x] [Tree Breadth First Search](src/main/kotlin/algorithms/BinaryTreeTraversal.kt)
+- [x] [Tree Depth First Search](src/main/kotlin/algorithms/BinaryTreeTraversal.kt) - pre-order, in-order, post-order both iterative and recursive
 - [ ] Subsets
 - [x] [Modified Binary Search](src/main/kotlin/problems/binarysearch)
 - [ ] Bitwise XOR
