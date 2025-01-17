@@ -71,9 +71,9 @@ The list of themes I'm learning in Kotlin are:
 
 ### Design patterns
 
-- [ ] Singleton
-- [ ] Factory
-- [ ] Builder
+- [x] Singleton
+- [x] Factory
+- [x] Builder
 
 ### Sorting algorithms
 
