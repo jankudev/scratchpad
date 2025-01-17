@@ -5,6 +5,7 @@ import dev.janku.learning.basics.BinaryTreeNode
 import org.junit.jupiter.api.Test
 import kotlin.test.assertContentEquals
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
 class SampleTrees {
   companion object {
@@ -44,6 +45,15 @@ class BinaryTreeTraversalTest_BFS {
     assertEquals(1, result[0].first)
     assertEquals(2, result[1].first)
     assertEquals(3, result[2].first)
+  }
+
+  @Test
+  fun `BFS - full tree - count chars in words`() {
+    val result = BinaryTreeTraversal.bfs(SampleTrees.SIMPLE_STRING_TREE, { it.toCharArray().size })
+
+    assertEquals(3, result.size)
+    assertEquals(listOf("hello", "Peter", "world"), result.map { it.first })
+    assertTrue(result.all { it.second == it.first.length })
   }
 
   @Test
