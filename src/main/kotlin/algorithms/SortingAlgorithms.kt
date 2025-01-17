@@ -71,7 +71,6 @@ class SortingAlgorithms {
 
       return merge(mergeSort(leftArray), mergeSort(rightArray))
     }
-
   }
 }
 
