@@ -1,9 +1,9 @@
-package dev.janku.learning.designpatterns
-
-import java.net.ProtocolFamily
+package dev.janku.learning.designpatterns.creational
 
 /**
- * Showcase of the Builder pattern
+ * Showcase of the Builder pattern (creational)
+ * - use for object creation with lots of parameters (optional or required)
+ * - basic principle: a builder class is used to construct a complex object step by step, build() method returns the final immutable object
  */
 class Url (
   val protocol: Protocol,

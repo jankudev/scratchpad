@@ -1,8 +1,10 @@
-package dev.janku.learning.designpatterns
+package dev.janku.learning.designpatterns.creational
 
 /**
- * Simplest form of Singleton pattern (thread-safe)
- * - simple and preferred way
+ * Simplest form of Singleton pattern (thread-safe) (creational)
+ * - ensures a single instance exists (on the JVM)
+ * - use as alternative to global classes (configurations, logging, shared resource managers, ...)
+ * - simple and preferred way using the 'object' keyword in Kotlin
  *
  * It gets transformed into the following Java code which is thread-safe by design
  * (static block is initialized as the class is loaded by the classloader and the INSTANCE is final):

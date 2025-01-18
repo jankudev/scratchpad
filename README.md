@@ -71,9 +71,18 @@ The list of themes I'm learning in Kotlin are:
 
 ### Design patterns
 
-- [x] Singleton
-- [x] Factory
-- [x] Builder
+#### Creational patterns
+- [x] Singleton - requiring single instance (alternative to global)
+- [x] Factory - creation based on type determined at runtime (hiding creation logic)
+- [x] Builder - creation of complex objects with multiple steps (optional/required/default parameters)
+
+#### Structural patterns
+- [ ] Adapter - 
+- [ ] Decorator
+- [ ] Proxy
+
+#### Behavioral patterns
+- 
 
 ### Sorting algorithms
 
