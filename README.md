@@ -47,7 +47,7 @@ The list of themes I'm learning in Kotlin are:
 ### Algorithmic patterns and techniques
 
 - [x] [Binary Search](src/main/kotlin/algorithms/BinarySearch.kt)
-- [ ] Sliding Window
+- [x] [Sliding Window](src/main/kotlin/algorithms/SlidingWindow.kt) - including some [applied problems using sliding window patter](src/main/kotlin/problems/slidingWindow) 
 - [x] Two Pointers (f.e. with Binary Search, Bubble Sort, ...)
 - [ ] Fast and Slow pointers
 - [ ] Merge Intervals
