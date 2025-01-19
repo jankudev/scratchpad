@@ -79,10 +79,12 @@ The list of themes I'm learning in Kotlin are:
 #### Structural patterns
 - [x] [Adapter](src/main/kotlin/designpatterns/structural/PaymentAdapter.kt) - adapting an interface to another interface for compatibility
 - [x] [Decorator](src/main/kotlin/designpatterns/structural/PaymentAdapter.kt) - adding behavior to objects dynamically or modifying the original behavior
-- [x] [Proxy]() - controlling access to object functionality
+- [x] [Proxy](src/main/kotlin/designpatterns/structural/RateLimitingProxy.kt) - controlling access to object functionality
 
 #### Behavioral patterns
-- 
+- [ ] Strategy
+- [ ] Observer
+- [ ] Command
 
 ### Sorting algorithms
 
