@@ -48,11 +48,11 @@ The list of themes I'm learning in Kotlin are:
 
 - [x] [Binary Search](src/main/kotlin/algorithms/BinarySearch.kt)
 - [x] [Sliding Window](src/main/kotlin/algorithms/SlidingWindow.kt) - including some [applied problems using sliding window patter](src/main/kotlin/problems/slidingWindow) 
-- [x] Two Pointers (f.e. with Binary Search, Bubble Sort, ...)
-- [ ] Fast and Slow pointers
-- [ ] Merge Intervals
-- [ ] Cyclic Sort
-- [ ] In-place Reversal of Linked List
+- [x] [Two Pointers](src/main/kotlin/algorithms/TwoPointers.kt) (f.e. with Binary Search, Bubble Sort, ...)
+- [x] [Fast and Slow pointers](src/main/kotlin/algorithms/TwoPointers.kt)
+- [x] [Intervals](src/main/kotlin/problems/intervals/Intervals.kt) - f.e. merging, intersection finding, scheduling, ...
+- [x] [Cyclic Sort](src/main/kotlin/problems/cyclicSort) - sorting in-place without extra space
+- [x] [In-place Reversal of Linked List](src/main/kotlin/problems/linkedList/LinkedListReversal.kt)
 - [x] [Tree Breadth First Search](src/main/kotlin/algorithms/BinaryTreeTraversal.kt)
 - [x] [Tree Depth First Search](src/main/kotlin/algorithms/BinaryTreeTraversal.kt) - pre-order, in-order, post-order both iterative and recursive
 - [ ] Subsets
